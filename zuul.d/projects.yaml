@@ -6,3 +6,6 @@
     github-gate:
       jobs:
         - noop
+    github-experimental-trigger:
+      jobs:
+        - noop
