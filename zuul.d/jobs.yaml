@@ -1,0 +1,9 @@
+---
+- job:
+    name: create-baremetal-trigger-for-downstream-dummy
+    parent: create-nested-virt-trigger-from-github-pr
+    vars:
+      trigger_branch: master
+      trigger_os_distro: centos_9
+      trigger_job_name: baremetal
+      trigger_commit_msg: "Trigger for baremetal-job"
