@@ -10,5 +10,7 @@
       jobs:
         - create-baremetal-trigger-for-downstream-dummy
     github-post:
+      debug: true
       jobs:
-      - cifmw-client-build-push-container-ci-framework-post
+        #- cifmw-client-build-push-container-ci-framework-post
+        - noop
