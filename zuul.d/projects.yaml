@@ -2,10 +2,13 @@
 - project:
     github-check:
       jobs:
-        - noop
+        - cifmw-client-build-push-container-ci-framework
     github-gate:
       jobs:
         - noop
     github-experimental-trigger:
       jobs:
         - create-baremetal-trigger-for-downstream-dummy
+    github-post:
+      jobs:
+      - cifmw-client-build-push-container-ci-framework-post
