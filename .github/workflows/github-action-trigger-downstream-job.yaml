@@ -1,6 +1,4 @@
-on:
-  issue_comment:
-    types: [created, edited]
+on: [workflow_call]
 jobs:
   trigger_workflow:
     uses: openstack-k8s-operators/ci-framework/.github/workflows/github-action-trigger-downstream-job.yaml@main
