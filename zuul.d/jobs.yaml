@@ -1,4 +1,5 @@
 ---
+# trigger job flow
 - job:
     name: create-baremetal-trigger-for-downstream-dummy
     parent: create-nested-virt-trigger-from-github-pr
