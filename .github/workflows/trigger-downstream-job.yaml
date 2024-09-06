@@ -5,4 +5,4 @@ on:
 
 jobs:
   trigger_workflow:
-    uses: raukadah/ci-playground/.github/workflows/github-action-trigger-downstream-job.yaml@main
+    uses: raukadah/ci-playground/.github/workflows/github-action-trigger-downstream-job-reusable-workflow.yaml@main
