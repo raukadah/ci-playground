@@ -1,4 +1,5 @@
-on: [workflow_call]
+on:
+  workflow_call
 jobs:
   trigger_workflow:
     uses: openstack-k8s-operators/ci-framework/.github/workflows/github-action-trigger-downstream-job.yaml@main
